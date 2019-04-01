@@ -1,3 +1,9 @@
+@media (min-width: 600px) {
+  .main {
+    width: 580px;
+  }
+}
+
 html, body {
     background-color: #ffffff;
     font-family: Avenir;
@@ -106,6 +112,11 @@ html, body {
 
   .right-wrapper {
     align-self: center;
+  }
+
+  .right-wrapper .header-text p {
+    font-size: 24px;
+    margin-top: 10px;
   }
 
   .see-work {
@@ -681,4 +692,69 @@ width: 85%;
   text-align: left;
   margin: 0 auto;
   padding: 20px;
+}
+
+
+.top-about {
+display: flex;
+}
+
+.left-about {
+  margin-left: 300px;
+  margin-top: 100px;
+  width: 70%;
+}
+
+.left-about p {
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+
+.right-about {
+  margin: 125px;
+  margin-left: -260px;
+}
+
+.main-about {
+  display: flex;
+}
+
+.about-bkg {
+  position: relative;
+  z-index: 0 ;
+  text-align: center;
+}
+
+.about-me1 {
+  position: absolute;
+  z-index: 1;
+  width: 42%;
+  top: -5%;
+  left: 8%;
+  transform: translate(50%, 50%)
+}
+
+.about-me2 {
+  position: absolute;
+  z-index: 1;
+  width: 41%;
+  top: 20%;
+  right: 26%;
+  transform: translate(50%, 50%);
+}
+
+
+.about-me2 p {
+  color: #FFCDB2;
+}
+
+.about-me3 {
+position: absolute;
+    z-index: 1;
+    width: 40%;
+    top: 78%;
+    left: 10%;
+    transform: translate(50%, 50%);
 }
