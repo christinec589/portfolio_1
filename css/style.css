@@ -13,7 +13,7 @@ html, body {
   main {
     margin: 0 auto;
     padding: 0 1.5rem;
-    max-width: 1600px;
+    max-width: 1440px;
     overflow: hidden;
     width: 100%
   }
@@ -336,7 +336,7 @@ padding-top: 20px;
 .survey-bkg {
   z-index: 0;
   position: absolute;
-  width: 100%;
+  width: 1600px;
 }
 
 .usersurvey {
