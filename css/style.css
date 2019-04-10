@@ -17,10 +17,21 @@ html {
 
 .container {
     margin: 0 auto;
-    padding: 0 1.5rem;
-    max-width: 1440px;
+    padding: 0rem;
+    max-width: 1500px;
     overflow: hidden;
     width: 100%
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 1rem;
+        max-width: 1500px;
+        overflow: hidden;
+        width: 100%
+    }
+
 }
 
 ul {
@@ -39,7 +50,7 @@ h1 {
     font-size: 3.6rem;
     font-weight: 50;
     color: #000C4C;
-    margin: 0 0 1.5rem;
+    margin: 0 0 1.5rem .5rem;
 }
 
 h2 {
@@ -233,6 +244,7 @@ nav {
 @media screen and (min-width: 1024px) {
     .carecloud-project {
         display: flex;
+        padding-bottom: 0px;
     }
 }
 
@@ -522,7 +534,7 @@ nav {
 }
 
 .problem-section {
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1123,12 +1135,7 @@ nav {
     background-color: #E5E5E5;
     padding: 1rem;
     margin: 1.5rem 0;
-}
-
-@media screen and (min-width: 768px) {
-    .wire-right {
-        text-align: center;
-    }
+    text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1140,13 +1147,9 @@ nav {
 
 .wire-right p {
     margin-bottom: 1rem;
+    text-align: left;
 }
 
-@media screen and (min-width: 768px) {
-    .wire-right p {
-        text-align: left;
-    }
-}
 
 
 @media screen and (min-width: 768px) {
@@ -1355,7 +1358,7 @@ nav {
 
 .conclusion {
     background-color: #085A6B;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -1380,7 +1383,8 @@ nav {
 .conclusion p {
     color: #FFCDB2;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1405,7 +1409,7 @@ nav {
 }
 
 .top-about {
-    padding: 2.5rem 0;
+    padding: 2.5rem 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1424,7 +1428,7 @@ nav {
 
 @media screen and (min-width: 1280px) {
     .left-about {
-        width: 39%;
+        width: 40%;
         margin-left: 26rem;
     }
 }
@@ -1487,7 +1491,13 @@ nav {
 
 @media screen and (min-width: 1280px) {
     .main-about {
-        margin-top: 20%;
+        margin-top: 22%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main-about {
+        margin-top: 25%;
     }
 }
 
@@ -1517,13 +1527,13 @@ nav {
 .about-me1 {
     position: absolute;
     width: 90%;
-    top: 5%;
+    top: 6%;
     margin-left: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
     .about-me1 {
-        width: 45%;
+        width: 43%;
         left: 27%;
         top: .25%;
     }
@@ -1568,7 +1578,7 @@ nav {
 
 .about-me2 {
     position: absolute;
-    top: 54%;
+    top: 55%;
     width: 93%;
     margin-left: 1.5rem;
 
@@ -1576,7 +1586,7 @@ nav {
 
 @media screen and (min-width: 768px) {
     .about-me2 {
-        width: 44%;
+        width: 42%;
         right: 3%;
         top: 27%;
     }
@@ -1632,9 +1642,9 @@ nav {
 
 @media screen and (min-width: 768px) {
     .about-me3 {
-        width: 45%;
+        width: 43%;
         bottom: 1%;
-        left: 26%;
+        left: 27%;
     }
 }
 
